@@ -1,0 +1,32 @@
+.productContainer {
+    height: 10vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 20px;
+    padding: 1%;
+    background: darkorange;
+    color: black;
+    margin: 1%;
+}
+
+img {
+    padding-left: 10%;
+    height: 10vh;
+    width: 10vh;
+    background-size: cover;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    align-items: center;
+    padding-right: 4%;
+}
+
+p {
+    text-align: center;
+    align-items: center;
+}
